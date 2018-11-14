@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--etiqueta que define el color de fondo que tendrá en caso que queramos definir un color de fondo-->
+    <solid android:color="#771cae02"/>
+    <!--etiqueta para definir las características de los bordes, el ancho y el color entre otros-->
+    <stroke android:width="0dp" android:color="#B1BCBE" />
+    <!--define el redondeado de las esquinas en este caso 10dp-->
+    <corners android:bottomLeftRadius="10dp" android:bottomRightRadius="10dp"/>
+    <!--padding que tendrá este pequeño layout que hemos definido-->
+    <padding android:left="5dp" android:top="0dp" android:right="0dp" android:bottom="0dp" />
+
+</shape>

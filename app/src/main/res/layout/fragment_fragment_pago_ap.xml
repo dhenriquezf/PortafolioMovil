@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.FragmentPagoAp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/lblRegistroPagos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="Registro de pagos"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/spSelecAlumno"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24sp"/>
+
+    <Spinner
+        android:id="@+id/spSelecCurso"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/lblNroCta"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textColor="@android:color/white"
+        android:layout_gravity="left"
+        android:layout_marginVertical="100dp"
+        android:layout_marginTop="100dp"
+        android:text="lblNroCta"
+        android:textSize="16sp"
+        android:background="@drawable/textview_background"/>
+    <TextView
+        android:id="@+id/lblNomCurso"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textColor="@android:color/white"
+        android:layout_marginVertical="140dp"
+        android:text="lblNomCurso"
+        android:textSize="16sp"
+        android:background="#771cae02"
+        android:paddingLeft="5dp"/>
+    <TextView
+        android:id="@+id/lblTotalReunido"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textColor="@android:color/white"
+        android:layout_marginVertical="180dp"
+        android:text="lblTotalReunido"
+        android:textSize="16sp"
+        android:background="#771cae02"
+        android:paddingLeft="5dp"/>
+    <TextView
+        android:id="@+id/lblTotalPagar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textColor="@android:color/white"
+        android:layout_marginVertical="220dp"
+        android:text="lblTotalPagar"
+        android:textSize="16sp"
+        android:background="#771cae02"
+        android:paddingLeft="5dp"/>
+    <TextView
+        android:id="@+id/lblTotalPagado"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textColor="@android:color/white"
+        android:layout_marginVertical="260dp"
+        android:text="lblTotalPagado"
+        android:textSize="16sp"
+        android:background="@drawable/textview_backgroung_bottom"/>
+
+    <Button
+        android:id="@+id/btnPagar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_dark"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginVertical="310dp"
+        android:text="Generar Pago" />
+
+    <Button
+        android:id="@+id/btnAddCta"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_dark"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="380dp"
+        android:text="Agregar cuenta" />
+
+</FrameLayout>

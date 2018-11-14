@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.FragmentContratoAp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/lblActividadesAp"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:textAlignment="center"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:text="Contrato"
+        android:textSize="24sp"/>
+
+    <Spinner
+        android:id="@+id/spinnerAlumnos"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerCursos"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/lblCurso"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:layout_marginVertical="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:text="lblCurso"
+        android:enabled="true"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/textview_background"/>
+
+    <TextView
+        android:id="@+id/lblDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:layout_marginVertical="130dp"
+        android:text="lblDescripcion"
+        android:textSize="14sp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textColor="@android:color/white"
+        android:background="#771cae02"
+        android:paddingLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/lblFechaViaje"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginVertical="160dp"
+        android:text="LblFechaViaje"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:background="#771cae02"
+        android:paddingLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/lblValorTotal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_gravity="left"
+        android:layout_marginVertical="190dp"
+        android:text="lblValorTotal"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:background="#771cae02"
+        android:paddingLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/lblDestinosValor"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginVertical="220dp"
+        android:text="lblDestinosValor"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:background="#771cae02"
+        android:paddingLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/lblServicioValor"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_gravity="left"
+        android:layout_marginVertical="250dp"
+        android:text="lblServicioValor"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:background="#771cae02"
+        android:paddingLeft="5dp"/>
+
+    <TextView
+        android:id="@+id/lblSeguroValor"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_gravity="left"
+        android:layout_marginVertical="280dp"
+        android:text="lblServicioValor"
+        android:textSize="14sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/textview_backgroung_bottom"/>
+
+    <Button
+        android:id="@+id/btnPdf"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginVertical="340dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_dark"
+        android:text="PDF Contrato" />
+
+    <Button
+        android:id="@+id/btnDestinos"
+        android:layout_width="85dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_dark"
+        android:layout_marginVertical="400dp"
+        android:text="Destinos" />
+
+    <Button
+        android:id="@+id/btnServicios"
+        android:layout_width="85dp"
+        android:layout_height="40dp"
+        android:layout_gravity="left|center_horizontal"
+        android:layout_marginLeft="20dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_dark"
+        android:layout_marginVertical="400dp"
+        android:text="Servicios" />
+
+    <Button
+        android:id="@+id/btnPoliza"
+        android:layout_width="85dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right|center_horizontal"
+        android:layout_marginRight="20dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_dark"
+        android:layout_marginVertical="400dp"
+        android:text="PDF Poliza" />
+</FrameLayout>
