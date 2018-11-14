@@ -611,6 +611,9 @@ public class FragmentContratoAp extends Fragment {
         templatePDF.addParagraph(" ");
         templatePDF.addParagraph(" ");
         templatePDF.addParagraph(" ");
+        templatePDF.addParagraph(" ");
+        templatePDF.addParagraph(" ");
+        templatePDF.addParagraph(" ");
         templatePDF.addParagraph("          EL CLIENTE                                                                          LA AGENCIA");
         templatePDF.closeDocument();
 
